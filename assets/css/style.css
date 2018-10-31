@@ -1,0 +1,102 @@
+body{
+     padding:5% 15% 30% 15%;
+     background-image: url("https://www.vroomheuvel.com/sites/default/files/2018-07/station-839208_960_720.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+}
+.card-header{
+    background-color: #50a0e2;
+}
+.display-4{
+    text-align: center;
+}
+
+ #time{
+    text-align: center;
+    transform: rotate();
+} 
+
+.at{
+    font-weight: bold;
+}
+
+.jumbotron,jumbotron-fluid{
+    background-color: #ffffffad;
+    border:5px solid #50a0e2;
+}
+
+.card{
+    background-color: #ffffff69;
+}
+label{
+    font-weight: bold;
+}
+
+
+.hero-circle{
+    width:180px;
+    height:180px;
+    position:relative;
+    border:8px solid rgb(3, 3, 3);
+    border-radius:50%;
+    box-shadow:0 1px 8px rgba(34, 34, 34, 0.3),inset 0 1px 8px rgba(34, 34, 34, 0.3);
+    margin-left: 430px;
+}
+.hero-face{
+    width:100%;
+    height:100%;
+}
+.hero-face:after{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:12px;
+    height:12px;
+    margin:-6px 0 0 -6px;
+    background:rgb(0, 0, 0);
+    border-radius:6px;
+    content:"";
+    display:block;
+}
+.hero-hour{
+    width:0;
+    height:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-4px 0 -4px -25%;
+    padding:4px 0 4px 25%;
+    background:rgb(0, 0, 0);
+    -webkit-transform-origin:100% 50%;
+    -ms-transform-origin:100% 50%;
+    transform-origin:100% 50%;
+    border-radius:4px 0 0 4px;
+}
+.hero-minute{
+    width:0;
+    height:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-40% -3px 0;
+    padding:40% 3px 0;
+    background:rgb(0, 0, 0);
+    -webkit-transform-origin:50% 100%;
+    -ms-transform-origin:50% 100%;
+    transform-origin:50% 100%;
+    border-radius:3px 3px 0 0;
+}
+.hero-second{
+    width:0;
+    height:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-40% -1px 0 0;
+    padding:40% 1px 0;
+    background:#50a0e2;
+    -webkit-transform-origin:50% 100%;
+    -ms-transform-origin:50% 100%;
+    transform-origin:50% 100%;
+}
